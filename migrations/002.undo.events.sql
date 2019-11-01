@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS upcoming;
+
+DROP TABLE IF EXISTS previous;
+
+DROP TABLE IF EXISTS nsfw;
