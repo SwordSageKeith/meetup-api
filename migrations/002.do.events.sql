@@ -2,7 +2,7 @@ CREATE TABLE upcoming (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
   location TEXT,
-  time DATE,
+  time DATE NOT NULL,
   date_added DATE DEFAULT CURRENT_TIMESTAMP,
   description TEXT,
   host INTEGER REFERENCES users(id),
